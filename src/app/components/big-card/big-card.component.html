@@ -1,10 +1,10 @@
 <article class="big-card">
-    <img class="big-card__image" src="https://img.freepik.com/fotos-gratis/belo-campo-dourado-com-incrivel-nublado_181624-494.jpg?w=740&t=st=1706455571~exp=1706456171~hmac=e60dad20a00d89ebf3c96caaa57d3cc18d0fff2cec3fc89432a296908576dda2" alt="foto principal">
-    <p class="big-card__date">28 jan, 2024 | 12h33</p>
+    <img class="big-card__image" src="{{ photoCover }}" alt="foto principal">
+    <p class="big-card__date">{{ cardDate }}</p>
     <h1 class="big-card__title">
         <a href="#" target="_blank">
-        Prefeitura inaugura novo centro esportivo
+        {{ cardTitle }}
         </a>
     </h1>
-    <p class="big-card__subtitle">Este novo centro esportivo possuí 2 piscinas, 1 quadra poliesportiva e 1 campo de futebol.</p>
+    <p class="big-card__subtitle">{{ cardDescription }}</p>
 </article>

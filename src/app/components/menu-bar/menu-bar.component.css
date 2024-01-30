@@ -1,0 +1,15 @@
+.menu-bar{
+    display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu-bar__menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-bar__menu > li{
+    margin: 20px;
+}

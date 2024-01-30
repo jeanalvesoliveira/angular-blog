@@ -1,0 +1,30 @@
+.small-card{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.small-card__image{
+    width: 40%;
+    border-radius: 3px;
+}
+
+.small-card__texts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.small-card__date{
+    font-size: 0.6rem;
+    margin-left: 2%;
+    color: #999;
+}
+
+.small-card__title{
+    margin-top: 5px;
+    font-size: 0.9rem;
+    margin-left: 2%;
+    line-height: 0.9;
+}

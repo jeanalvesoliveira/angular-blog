@@ -3,7 +3,7 @@
     <div class="small-card__texts">
         <p class="small-card__date">{{ cardDate }}</p>
         <h1 class="small-card__title">
-            <a href="#" target="_blank">
+            <a [routerLink]="['/content', id]" >
                 {{ cardTitle }}
             </a>
         </h1>

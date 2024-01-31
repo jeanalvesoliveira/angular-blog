@@ -2,7 +2,7 @@
     <img class="big-card__image" src="{{ photoCover }}" alt="foto principal">
     <p class="big-card__date">{{ cardDate }}</p>
     <h1 class="big-card__title">
-        <a href="#" target="_blank">
+        <a [routerLink]="['/content', id]" >
         {{ cardTitle }}
         </a>
     </h1>
